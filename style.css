@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
+.nav__upper {
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+}
+
+.nav__upper>.material-symbols-outlined {
+    position: absolute;
+}
+
+.upper__right,
+.footer__right {
+    position: absolute;
+    right: 10px;
+}
+
+.upper__right>a,
+.footer__right>a {
+    margin: 15px;
+}
+
+.nav__lower {
+    margin: 30px 0;
+}
+
+.nav__lower>a {
+    padding: 35px;
+    margin: 35px;
+}
+
+.content {
+    width: 600px;
+    margin-left: 330px;
+}
+
+* {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.footer {
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid: auto-flow / 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 15px;
+    margin: 15px;
+}
+
+img {
+    box-shadow: 10px 20px lightcoral;
+    margin: 30px;
+}
+
+h1,
+h2 {
+    text-shadow: 5px 5px yellow;
+}
